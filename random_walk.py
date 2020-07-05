@@ -3,19 +3,18 @@ import matplotlib.pyplot as plt
 import random 
   
 steps = 100000
-  
 x = numpy.zeros(steps) 
 y = numpy.zeros(steps) 
   
 for i in range(1, steps): 
-    val = random.randint(1, 4) 
-    if val == 1: 
+    ran_n = random.randint(1, 4) 
+    if ran_n == 1: 
         x[i] = x[i - 1] + 1
         y[i] = y[i - 1] 
-    elif val == 2: 
+    elif ran_n == 2: 
         x[i] = x[i - 1] - 1
         y[i] = y[i - 1] 
-    elif val == 3: 
+    elif ran_n == 3: 
         x[i] = x[i - 1] 
         y[i] = y[i - 1] + 1
     else: 
