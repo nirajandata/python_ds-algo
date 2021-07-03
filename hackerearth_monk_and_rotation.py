@@ -1,3 +1,4 @@
+#https://www.hackerearth.com/problem/algorithm/monk-and-rotation-3-bcf1aefe/
 t=int(input())
 for i in range(t):
     a,b=map(int,input().split())
